@@ -2,7 +2,7 @@ module DateAsFloat = {
   let t_decode = json => {
     Decco.floatFromJson(json)->Belt.Result.map(Js.Date.fromFloat);
   };
-  let t_encode = date => Js.Date.getTime(date)->Decco.floatToJson;
+  let t_encode = date => Js.Date.getTime(date);
 
   type t = Js.Date.t;
 };
