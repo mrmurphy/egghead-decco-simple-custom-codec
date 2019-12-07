@@ -1,0 +1,22 @@
+{
+  "name": "async-await",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world"
+  },
+  "keywords": [
+    "BuckleScript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "bs-platform": "^7.0.0"
+  },
+  "dependencies": {
+    "bs-let": "^0.1.11",
+    "decco": "^1.0.0",
+    "got": "^10.0.1"
+  }
+}

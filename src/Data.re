@@ -1,0 +1,1 @@
+[@bs.module] external data: Js.Json.t = "./data.json";
